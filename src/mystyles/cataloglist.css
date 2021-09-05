@@ -1,0 +1,39 @@
+.cataloglist-listContainer{
+    position: absolute;
+    top: 100%;
+    left: -69%;
+    height: 100vh;
+    width: 100vw;
+    /*border: 2px solid green;*/
+    display: none;
+    color: var(--mainTextColor);
+    box-shadow: 1px 1px 10px 1px rgb(0 0 0);
+    background-color: white;
+    z-index: 1000;
+}
+.cataloglist-itemHeader{
+    /*text-align: center;*/
+    padding: 35px 0 0 40px;
+}
+.cataloglist-itemHeader span{
+    color: var(--mainTextColor);
+    font-family: var(--secMainFont);
+    font-size: 14px;
+    font-weight: bold;
+}
+.cataloglist-itemList li{
+    list-style: none;
+    color: var(--mainTextColor);
+    font-family: var(--secMainFont);
+    font-size: 14px;
+}
+.cataloglist-listContainer::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.cataloglist-itemContainer{
+    /*border: 1px solid firebrick;*/
+    width: 20%;
+    float: left;
+}

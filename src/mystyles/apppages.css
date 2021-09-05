@@ -1,0 +1,154 @@
+.apppages-pagesContainer{
+    /*border: 2px solid deeppink;*/
+    height: 77px;
+    float: left;
+    padding: 10px 0 4px 0;
+}
+.apppages-pagesContainer::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.apppages-geo{
+    float: left;
+    /*border: 1px solid red;*/
+    padding: 36px 10px 0 10px;
+    position: relative;
+}
+.apppages-geo a{
+    text-decoration: none;
+    color: var(--mainTextColor);
+    font-family: var(--secMainFont);
+    font-size: 13px;
+}
+.apppages-geo a:hover{
+    text-decoration: underline;
+    color: var(--clearanceSaleborderBGColor);
+}
+.apppages-geo div{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -65%);
+}
+.apppages-geo div i{
+    color: var(--clearanceSaleborderBGColor);
+}
+.apppages-pageList{
+    float: left;
+    /*border: 1px solid blue;*/
+    padding: 0 150px 0 0;
+}
+.apppages-Info{
+    /*border: 1px solid black;*/
+    font-size: 13px;
+    color: var(--mainTextColor);
+    padding: 1px 0;
+}
+.apppages-Info a, .apppages-Info span{
+    font-family: var(--secMainFont);
+    font-size: 12px;
+}
+.apppages-Info::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.apppages-left{
+    float: left;
+    text-decoration: none;
+    color: var(--mainTextColor);
+}
+.apppages-left:hover{
+    text-decoration: underline;
+    color: var(--clearanceSaleborderBGColor);
+}
+.apppages-right{
+    float: right;
+}
+.apppages-pageList::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.apppages-pages{
+    padding: 18px 0;
+}
+.apppages-delivery a,
+.apppages-call a,
+.apppages-installation a,
+.apppages-aboutShop a,
+.apppages-contacts a{
+    text-decoration: none;
+    color: var(--mainTextColor);
+    font-family: var(--secMainFont);
+    font-size: 14px;
+}
+.apppages-delivery a:hover,
+.apppages-call a:hover,
+.apppages-installation a:hover,
+.apppages-aboutShop a:hover,
+.apppages-contacts a:hover{
+    text-decoration: underline;
+    color: var(--clearanceSaleborderBGColor);
+}
+.apppages-delivery, .apppages-call, .apppages-installation, .apppages-aboutShop, .apppages-contacts{
+    float: left;
+    padding: 0 10px;
+}
+.apppages-delivery{
+}
+.apppages-call{
+    /*float: left;*/
+}
+.apppages-installation{
+    /*float: left;*/
+}
+.apppages-aboutShop{
+    /*float: left;*/
+}
+.apppages-contacts{
+    /*float: left;*/
+}
+.apppages-loginContainer{
+    float: left;
+    /*border: 1px solid orange;*/
+    padding: 5px 13px 0 13px;
+}
+.apppages-loginContainer div a{
+    display: inline-block;
+    position: relative;
+    padding: 33px 0 0 0;
+    text-decoration: none;
+    color: var(--mainTextColor);
+    font-family: var(--secMainFont);
+    font-size: 14px;
+}
+.apppages-loginContainer div a:hover{
+    text-decoration: underline;
+    color: var(--clearanceSaleborderBGColor);
+}
+.apppages-loginContainer div a div{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -65%);
+}
+.apppages-loginContainer div a div i{
+    color: var(--clearanceSaleborderBGColor);
+}
+.apppages-telephoneContainer{
+    float: left;
+    /*border: 1px solid red;*/
+    padding: 1px 10px 1px 50px;
+}
+.apppages-telephoneContainer div a{
+    text-decoration: none;
+    color: var(--mainTextColor);
+    font-family: var(--secMainFont);
+    font-size: 16px;
+}
+.apppages-telephoneContainer div a:hover{
+    text-decoration: underline;
+    color: var(--clearanceSaleborderBGColor);
+}
