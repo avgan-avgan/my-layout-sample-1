@@ -1,5 +1,6 @@
 .scp-container{
     /*border: 1px solid red;*/
+    position: relative;
 }
 .scp-container::after{
     content: "";
@@ -58,10 +59,13 @@
 .scp-someInfo{
     /*border: 2px solid red;*/
     background-color: var(--clearanceSaleborderBGColor);
+    position: absolute;
+    right: 0;
+    height: 100%;
 }
 .scp-comparing{
     color: white;
-    padding: 6px 10px 10px 9px;
+    padding: 3px 10px 10px 9px;
     position: relative;
 }
 .scp-comparing a{
@@ -87,10 +91,14 @@
 }
 .scp-processing{
     position: relative;
+    color: white;
+    padding: 3px 13px 11px 0;
+    background-color: #f6a922;
+    height: 100%;
 }
 .scp-processing span{
     position: absolute;
-    left: 24px;
+    left: 23px;
     color: black;
     border-radius: 50%;
     border: 1px solid #fca001;
@@ -108,11 +116,6 @@
     font-size: 23px;
     color: white;
     padding: 0 9px 0 4px;
-}
-.scp-processing{
-    color: white;
-    padding: 5px 10px 11px 0;
-    background-color: #f6a922;
 }
 .scp-processing a, .scp-comparing a{
     text-decoration: none;
