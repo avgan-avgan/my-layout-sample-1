@@ -1,0 +1,42 @@
+[
+  {
+    "to": "html",
+    "text": "HTML",
+    "show": true
+  },
+  {
+    "to": "css",
+    "text": "CSS",
+    "show": true
+  },
+  {
+    "to": "javascript",
+    "text": "JavaScript",
+    "show": true
+  },
+  {
+    "to": "php",
+    "text": "PHP",
+    "show": true
+  },
+  {
+    "to": "python",
+    "text": "Python",
+    "show": true
+  },
+  {
+    "to": "jquery",
+    "text": "JQuery",
+    "show": true
+  },
+  {
+    "to": "sql",
+    "text": "SQL",
+    "show": true
+  },
+  {
+    "to": "nodejs",
+    "text": "Node.js",
+    "show": true
+  }
+]

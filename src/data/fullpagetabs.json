@@ -1,0 +1,34 @@
+[
+  {
+    "button": "Home",
+    "header": "Home",
+    "paragraph": "Home is where the heart is..",
+    "color": "red",
+    "activeClass": "",
+    "show": "none"
+  },
+  {
+    "button": "News",
+    "header": "News",
+    "paragraph": "Some news this fine day!",
+    "color": "green",
+    "activeClass": "",
+    "show": "block"
+  },
+  {
+    "button": "Contact",
+    "header": "Contact",
+    "paragraph": "Get in touch, or swing by for a cup of coffee",
+    "color": "blue",
+    "activeClass": "",
+    "show": "none"
+  },
+  {
+    "button": "About",
+    "header": "About",
+    "paragraph": "Who we are and what we do.",
+    "color": "orange",
+    "activeClass": "",
+    "show": "none"
+  }
+]

@@ -114,11 +114,108 @@
 
 .cont-contentContainer{
     /*border: 2px solid darkcyan;*/
-    min-width: 60%;
+    min-width: 75%;
+    float: left;
+}
+.cont-subContainer{
+    /*border: 2px solid #d000ff;*/
+    width: 85.5%;
+    min-height: 330px;
+    margin: 0 0 0 3%;
+    position: relative;
+    overflow: hidden;
+}
+.cont-carouselContainer{
+    /*border: 2px solid #fa6802;*/
+    position: absolute;
+    width: 25000px;
+    height: 100%;
+    left: 0;
+    transition: left 2.5s ease-in-out;
 }
 
+.cont-carouselContainer::after{
+    content: "";
+    display: table;
+    clear: both;
+}
 
+.cont-imageContainer{
+    /*border: 2px solid forestgreen;*/
+    width: 865px;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+}
 
+.cont-imageContainer img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.cont-stockStatContainer{
+    /*border: 2px solid forestgreen;*/
+}
+.cont-stockInfo{
+    /*border: 2px solid #ff2600;*/
+    margin: auto;
+    width: 85%;
+    text-align: center;
+    font-family: var(--secMainFont);
+    /*color: var(--mainTextColor);*/
+    padding: 13px;
+}
+
+.cont-stockInfoHeader{
+    font-size: 22px;
+    color: #4F4E4EFF;
+    padding: 7px;
+}
+.cont-stockInfoParagraph{
+    font-size: 18px;
+    color: #4F4E4EFF;
+    padding: 7px;
+}
+.cont-stockInfoParagraph strong{
+    color: var(--clearanceSaleborderBGColor);
+    font-size: 20px;
+}
+
+.cont-leftArr{
+    position: absolute;
+    top: 50%;
+    left: 6%;
+    transform: translate(-94%, -50%);
+    font-size: 38px;
+    /*background-color: #757575;*/
+    color: rgba(255, 255, 255, 0.29);
+    z-index: 999;
+    cursor: pointer;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    text-align: center;
+}
+.cont-rightArr{
+    position: absolute;
+    top: 50%;
+    left: 94%;
+    transform: translate(-6%, -50%);
+    font-size: 38px;
+    /*background-color: red;*/
+    color: rgba(255, 255, 255, 0.29);
+    z-index: 999;
+    cursor: pointer;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.cont-leftArr:hover, .cont-rightArr:hover{
+    color: rgba(98, 97, 97, 0.98);
+}
 
 
 

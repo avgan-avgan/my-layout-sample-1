@@ -1,0 +1,77 @@
+[
+  {
+    "to": "home",
+    "text": "Home",
+    "activeClass": ""
+  },
+  {
+    "to": "news",
+    "text": "News",
+    "activeClass": ""
+  },
+  {
+    "to": "contact",
+    "text": "Contact",
+    "activeClass": ""
+  },
+  {
+    "to": "about",
+    "text": "About",
+    "activeClass": ""
+  },
+  {
+    "to": "support",
+    "text": "Support",
+    "activeClass": ""
+  },
+  {
+    "to": "blog",
+    "text": "Blog",
+    "activeClass": ""
+  },
+  {
+    "to": "tools",
+    "text": "Tools",
+    "activeClass": ""
+  },
+  {
+    "to": "base",
+    "text": "Base",
+    "activeClass": ""
+  },
+  {
+    "to": "custom",
+    "text": "Custom",
+    "activeClass": ""
+  },
+  {
+    "to": "more",
+    "text": "More",
+    "activeClass": ""
+  },
+  {
+    "to": "logo",
+    "text": "Logo",
+    "activeClass": ""
+  },
+  {
+    "to": "friends",
+    "text": "Friends",
+    "activeClass": ""
+  },
+  {
+    "to": "partners",
+    "text": "Partners",
+    "activeClass": ""
+  },
+  {
+    "to": "people",
+    "text": "People",
+    "activeClass": ""
+  },
+  {
+    "to": "work",
+    "text": "Work",
+    "activeClass": ""
+  }
+]

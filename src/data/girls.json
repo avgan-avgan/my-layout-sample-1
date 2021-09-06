@@ -1,0 +1,20 @@
+[
+  {
+    "url": "images/7040744-pretty-little-girl.jpg",
+    "caption": "Pretty little girl",
+    "display": "none",
+    "activeClass": true
+  },
+  {
+    "url": "images/7038570-girl-in-nature-wallpaper.jpg",
+    "caption": "Girl in nature",
+    "display": "none",
+    "activeClass": false
+  },
+  {
+    "url": "images/7039381-cute-little-girl-hd-wallpaper.jpg",
+    "caption": "Cute little girl",
+    "display": "none",
+    "activeClass": false
+  }
+]

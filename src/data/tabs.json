@@ -1,0 +1,34 @@
+[
+  {
+    "city" : "London",
+    "header": "London",
+    "paragraph": "London is the capital city of England.",
+    "color": "red",
+    "activeClass" : "tablinks active",
+    "show": "block"
+  },
+  {
+    "city" : "Paris",
+    "header": "Paris",
+    "paragraph": "Paris is the capital city of France.",
+    "color": "green",
+    "activeClass" : "tablinks",
+    "show": "none"
+  },
+  {
+    "city" : "Tokyo",
+    "header": "Tokyo",
+    "paragraph": "Tokyo is the capital city of Japan.",
+    "color": "blue",
+    "activeClass" : "tablinks",
+    "show": "none"
+  },
+  {
+    "city" : "Oslo",
+    "header": "Oslo",
+    "paragraph": "Oslo is the capital city of Norway.",
+    "color": "orange",
+    "activeClass" : "tablinks",
+    "show": "none"
+  }
+]
